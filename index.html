@@ -368,17 +368,17 @@
       <tr>
       <th scope="row">3 BHK + 2T + 2B </th>
       <td>1350 Sq.Ft.</td>                 
-      <td><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal1">On Request</button></td>
+      <td><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal3">On Request</button></td>
       </tr>
       <tr>
       <th scope="row">3 BHK + 3T + 4B</th>
       <td>1545 Sq.Ft</td>                
-      <td><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal1">On Request</button></td>
+      <td><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal3">On Request</button></td>
       </tr>
       <tr>
       <th scope="row">4 BHK + 3T + 2B</th>
       <td>2010 Sq.Ft</td>                
-      <td><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal1">On Request</button></td>
+      <td><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal3">On Request</button></td>
       </tr>
       </tbody>
       </table>
@@ -564,7 +564,7 @@
 <!----------model--------->
 
 <div class="modal fade" id="myModal3">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content" style="background-color:#273343;"> 
       <!-- Modal Header -->
       <div class="modal-header"> 
@@ -574,12 +574,12 @@
        <h1 style="text-align:center;font-size:25px;line-height:40px;color:#fff">Enquire Form</h1>
       <div class="modal-body">
         <div class="form-colm">
-        <form action="contact-mail.php" name="buttonpopupform" method="post" onsubmit="return validateForm3()">
+        <form action="" name="buttonpopupform" method="post" onsubmit="return validateForm3()">
           <input type="text" name="qname" class="form-control" placeholder="NAME" required id="qname">
         <input type="email" name="qemail" class="form-control" placeholder="E-MAIL ID" id="qemail">
         <input type="text" name="qphone" class="form-control" placeholder="MOBILE NO." required id="qphone" onkeypress="javascript:return isNumber(event)">
         <input type="text" name="qdesc" class="form-control" placeholder="Subject" id="qdesc">
-          <input type="submit" name="frmsub" class="btn btn btn-warning btn-block" value="Send" id="SubmitQuery3" />
+          <input type="submit" name="frmsub" class="btn btn btn-danger btn-block" value="Send" id="SubmitQuery3" />
           </form>
         </div>
       </div>
@@ -587,29 +587,6 @@
   </div>
 </div>
 
-<div class="modal fade" id="formModal">
-  <div class="modal-dialog">
-    <div class="modal-content" style="background-color:#273343;"> 
-      <!-- Modal Header -->
-      <div class="modal-header"> <img class="img-fluid mx-auto d-block" src="img/logo.png" style="border-radius:5px">
-       <!--  <h1>Sector - 128, Expressway, Noida</h1> -->
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-      </div>
-      <h1 style="text-align:center;font-size:25px;line-height:40px;color:#fff"><img src="images/location-icon.png">SECTOR 12 GREATER NOIDA WEST</h1>
-      <div class="modal-body">
-        <div class="form-colm">
-        <form action="contact-mail.php" name="modalform" method="post" onsubmit="return validateForm2()">
-         <input type="text" name="qname" class="form-control" placeholder="NAME" required id="qname">
-        <input type="email" name="qemail" class="form-control" placeholder="E-MAIL ID" id="qemail">
-        <input type="text" name="qphone" class="form-control" placeholder="MOBILE NO." required id="qphone" onkeypress="javascript:return isNumber(event)">
-        <input type="text" name="qdesc" class="form-control" placeholder="COMMENTS" id="qdesc">
-          <input type="submit" name="frmsub" class="btn btn btn-warning btn-block" value="Submit"/>
-        </form>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 
 <!-- <script src="http://gtftech.com/QueryForm/js/jquery.min.js"></script>  --> 
